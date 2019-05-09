@@ -1,0 +1,27 @@
+{
+  "name": "eurovision",
+  "version": "1.0.0",
+  "description": "Eurovision voting system",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ctrlaltdev/eurovision.git"
+  },
+  "author": "Yorick <yorick@ctrlalt.dev>",
+  "license": "MPL-2.0",
+  "bugs": {
+    "url": "https://github.com/ctrlaltdev/eurovision/issues"
+  },
+  "homepage": "https://github.com/ctrlaltdev/eurovision#readme",
+  "dependencies": {
+    "isomorphic-unfetch": "^3.0.0",
+    "next": "^8.1.0",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  }
+}

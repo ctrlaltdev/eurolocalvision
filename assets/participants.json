@@ -1,0 +1,291 @@
+{
+    "2019": [
+        {
+            "country": "Albania",
+            "artist": "Jonida Maliqi",
+            "song": "Ktheju tokës",
+            "image": "https://eurovision.tv/image/8d9181f7-788b-4844-a6e6-906e0443f747.jpg",
+            "final": false
+        },
+        {
+            "country": "Armenia",
+            "artist": "Srbuk",
+            "song": "Walking Out",
+            "image": "https://eurovision.tv/image/8d9181f7-39af-4be9-8ee4-837e1aee0a98.jpg",
+            "final": false
+        },
+        {
+            "country": "Australia",
+            "artist": "Kate Miller-Heidke",
+            "song": "Zero Gravity",
+            "image": "https://eurovision.tv/image/8d9181f9-b468-4d5a-8f23-aaf81ef80fcc.jpg",
+            "final": false
+        },
+        {
+            "country": "Austria",
+            "artist": "PÆNDA",
+            "song": "Limits",
+            "image": "https://eurovision.tv/image/8d9181f9-d31c-4fd6-bf40-bf56084e992b.jpg",
+            "final": false
+        },
+        {
+            "country": "Azerbaijan",
+            "artist": "Chingiz",
+            "song": "Truth",
+            "image": "https://eurovision.tv/image/8d9181f2-22f7-463d-850d-d79ddcbe4bc5.png",
+            "final": false
+        },
+        {
+            "country": "Belarus",
+            "artist": "ZENA",
+            "song": "Like It",
+            "image": "https://eurovision.tv/image/8d9181f7-8e21-43a1-a3cf-4b6820514f83.jpg",
+            "final": false
+        },
+        {
+            "country": "Belgium",
+            "artist": "Eliot",
+            "song": "Wake Up",
+            "image": "https://eurovision.tv/image/8d9181fa-6198-4723-a537-1d2c75d56f40.jpg",
+            "final": false
+        },
+        {
+            "country": "Croatia",
+            "artist": "Roko",
+            "song": "The Dream",
+            "image": "https://eurovision.tv/image/8d9181f9-752c-414d-9d71-a6763decf840.jpg",
+            "final": false
+        },
+        {
+            "country": "Cyprus",
+            "artist": "Tamta",
+            "song": "Replay",
+            "image": "https://eurovision.tv/image/8d9181ef-45fa-492d-ab78-328183222f8e.jpg",
+            "final": false
+        },
+        {
+            "country": "Czech Republic",
+            "artist": "Lake Malawi",
+            "song": "Friend of a Friend",
+            "image": "https://eurovision.tv/image/8d9181f6-ebca-482b-8e4b-443ce37fd4e5.jpg",
+            "final": false
+        },
+        {
+            "country": "Denmark",
+            "artist": "Leonora",
+            "song": "Love Is Forever",
+            "image": "https://eurovision.tv/image/8d9181fa-7714-42cf-bd0f-e802a9cbfc08.jpg",
+            "final": false
+        },
+        {
+            "country": "Estonia",
+            "artist": "Victor Crone",
+            "song": "Storm",
+            "image": "https://eurovision.tv/image/8d9181f3-6091-4599-8f58-a8c892c14d73.jpg",
+            "final": false
+        },
+        {
+            "country": "Finland",
+            "artist": "Darude feat. Sebastian Rejman",
+            "song": "Look Away",
+            "image": "https://eurovision.tv/image/8d9181f6-770f-49e1-8b3b-608e05932c20.jpg",
+            "final": false
+        },
+        {
+            "country": "France",
+            "artist": "Bilal Hassani",
+            "song": "Roi",
+            "image": "https://eurovision.tv/image/8d9181ca-f70f-4fe1-996f-6f6ebbc4c0f9.jpeg",
+            "final": true
+        },
+        {
+            "country": "Georgia",
+            "artist": "Oto Nemsadze",
+            "song": "Keep on going",
+            "image": "https://eurovision.tv/image/8d9181f2-ae36-4bfe-b4c6-f91f0e9de9fc.jpg",
+            "final": false
+        },
+        {
+            "country": "Germany",
+            "artist": "S!sters",
+            "song": "Sister",
+            "image": "https://eurovision.tv/image/8d9181fc-eb3e-47fd-807f-c6c385e0976a.jpg",
+            "final": true
+        },
+        {
+            "country": "Greece",
+            "artist": "Katerine Duska",
+            "song": "Better Love",
+            "image": "https://eurovision.tv/image/8d9181ef-1d18-4ea9-a9ae-2f5f8245b639.jpg",
+            "final": false
+        },
+        {
+            "country": "Hungary",
+            "artist": "Joci Pápai",
+            "song": "Az én apám",
+            "image": "https://eurovision.tv/image/8d9181e6-7891-4737-8734-eae6a92167a9.png",
+            "final": false
+        },
+        {
+            "country": "Iceland",
+            "artist": "Hatari",
+            "song": "Hatrið mun sigra",
+            "image": "https://eurovision.tv/image/8d9181ea-f8b0-4c3b-95ef-5014f053c878.png",
+            "final": false
+        },
+        {
+            "country": "Ireland",
+            "artist": "Sarah McTernan",
+            "song": "22",
+            "image": "https://eurovision.tv/image/8d9181f1-1c52-4ede-888d-e6436a990376.png",
+            "final": false
+        },
+        {
+            "country": "Israel",
+            "artist": "Kobi Marimi",
+            "song": "Home",
+            "image": "https://eurovision.tv/image/8d9181f2-bf96-46af-9409-c81613e5a08d.jpg",
+            "final": true
+        },
+        {
+            "country": "Italy",
+            "artist": "Mahmood",
+            "song": "Soldi",
+            "image": "https://eurovision.tv/image/8d9181eb-8d21-4476-84ee-661c564a88d8.png",
+            "final": true
+        },
+        {
+            "country": "Latvia",
+            "artist": "Carousel",
+            "song": "That Night",
+            "image": "https://eurovision.tv/image/8d9181fa-0070-4a23-80e2-72dc9694c59c.jpg",
+            "final": false
+        },
+        {
+            "country": "Lithuania",
+            "artist": "Jurij Veklenko",
+            "song": "Run With The Lions",
+            "image": "https://eurovision.tv/image/8d9181f6-9dfe-4430-a813-0043d0a50d27.jpg",
+            "final": false
+        },
+        {
+            "country": "Malta",
+            "artist": "Michela",
+            "song": "Chameleon",
+            "image": "https://eurovision.tv/image/8d9181f6-c617-4c63-8469-d03ab72d8d76.jpg",
+            "final": false
+        },
+        {
+            "country": "Moldova",
+            "artist": "Anna Odobescu",
+            "song": "Stay",
+            "image": "https://eurovision.tv/image/8d9181ea-879c-4ed3-9751-361b1b856ad9.png",
+            "final": false
+        },
+        {
+            "country": "Montenegro",
+            "artist": "D mol",
+            "song": "Heaven",
+            "image": "https://eurovision.tv/image/8d9181f7-01fa-4eb3-b88a-b5e0be9328cc.jpg",
+            "final": false
+        },
+        {
+            "country": "North Macedonia",
+            "artist": "Tamara Todevska",
+            "song": "Proud",
+            "image": "https://eurovision.tv/image/8d9181f2-cfd7-4f52-80a8-ba2b51c5576a.jpg",
+            "final": false
+        },
+        {
+            "country": "Norway",
+            "artist": "KEiiNO",
+            "song": "Spirit in the Sky",
+            "image": "https://eurovision.tv/image/8d9181c9-014d-4c65-8c59-12e73a3e2c33.jpg",
+            "final": false
+        },
+        {
+            "country": "Poland",
+            "artist": "Tulia",
+            "song": "Fire of Love (Pali się)",
+            "image": "https://eurovision.tv/image/8d9181db-6813-4df3-8930-5c6048372d9b.jpg",
+            "final": false
+        },
+        {
+            "country": "Portugal",
+            "artist": "Conan Osiris",
+            "song": "Telemóveis",
+            "image": "https://eurovision.tv/image/8d9181f3-0513-40ee-b9a3-2c964566677a.jpg",
+            "final": false
+        },
+        {
+            "country": "Romania",
+            "artist": "Ester Peony",
+            "song": "On a Sunday",
+            "image": "https://eurovision.tv/image/8d9181f6-8901-4026-8c27-357bb018e53c.jpg",
+            "final": false
+        },
+        {
+            "country": "Russia",
+            "artist": "Sergey Lazarev",
+            "song": "Scream",
+            "image": "https://eurovision.tv/image/8d9181d0-25ee-4601-9bfe-0acdb6abfacf.jpg",
+            "final": false
+        },
+        {
+            "country": "San Narino",
+            "artist": "Serhat",
+            "song": "Say Na Na Na",
+            "image": "https://eurovision.tv/image/8d9181c6-113d-402f-9459-91ed681ccd01.png",
+            "final": false
+        },
+        {
+            "country": "Serbia",
+            "artist": "Nevena Božović",
+            "song": "Kruna",
+            "image": "https://eurovision.tv/image/8d9181f7-d905-47a7-bace-513599ca2195.jpg",
+            "final": false
+        },
+        {
+            "country": "Slovenia",
+            "artist": "Zala Kralj & Gašper Šantl",
+            "song": "Sebi",
+            "image": "https://eurovision.tv/image/8d9181f8-1c09-449b-b3fc-4fc7bc8c4f7b.jpg",
+            "final": false
+        },
+        {
+            "country": "Spain",
+            "artist": "Miki",
+            "song": "La Venda",
+            "image": "https://eurovision.tv/image/8d9181f6-b3fa-4e79-aa70-687be4d21921.jpg",
+            "final": true
+        },
+        {
+            "country": "Sweden",
+            "artist": "John Lundvik",
+            "song": "Too Late For Love",
+            "image": "https://eurovision.tv/image/8d9181f8-2e1f-44cd-98de-ba0e144baabf.jpg",
+            "final": false
+        },
+        {
+            "country": "Switzerland",
+            "artist": "Luca Hänni",
+            "song": "She Got Me",
+            "image": "https://eurovision.tv/image/8d9181ef-986f-4f88-8251-cc4dc5d6357c.jpg",
+            "final": false
+        },
+        {
+            "country": "The Netherlands",
+            "artist": "Duncan Laurence",
+            "song": "Arcade",
+            "image": "https://eurovision.tv/image/8d9181f0-6b70-44c0-bd27-0867a4547cd2.png",
+            "final": false
+        },
+        {
+            "country": "United Kingdom",
+            "artist": "Michael Rice",
+            "song": "Bigger Than Us",
+            "image": "https://eurovision.tv/image/8d9181f8-e268-4169-84ca-5587cea91360.jpg",
+            "final": true
+        }
+    ]
+}
