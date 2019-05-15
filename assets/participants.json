@@ -19,7 +19,7 @@
             "artist": "Kate Miller-Heidke",
             "song": "Zero Gravity",
             "image": "https://eurovision.tv/image/8d9181f9-b468-4d5a-8f23-aaf81ef80fcc.jpg",
-            "final": false
+            "final": true
         },
         {
             "country": "Austria",
@@ -61,14 +61,14 @@
             "artist": "Tamta",
             "song": "Replay",
             "image": "https://eurovision.tv/image/8d9181ef-45fa-492d-ab78-328183222f8e.jpg",
-            "final": false
+            "final": true
         },
         {
             "country": "Czech Republic",
             "artist": "Lake Malawi",
             "song": "Friend of a Friend",
             "image": "https://eurovision.tv/image/8d9181f6-ebca-482b-8e4b-443ce37fd4e5.jpg",
-            "final": false
+            "final": true
         },
         {
             "country": "Denmark",
@@ -82,7 +82,7 @@
             "artist": "Victor Crone",
             "song": "Storm",
             "image": "https://eurovision.tv/image/8d9181f3-6091-4599-8f58-a8c892c14d73.jpg",
-            "final": false
+            "final": true
         },
         {
             "country": "Finland",
@@ -117,7 +117,7 @@
             "artist": "Katerine Duska",
             "song": "Better Love",
             "image": "https://eurovision.tv/image/8d9181ef-1d18-4ea9-a9ae-2f5f8245b639.jpg",
-            "final": false
+            "final": true
         },
         {
             "country": "Hungary",
@@ -131,7 +131,7 @@
             "artist": "Hatari",
             "song": "Hatrið mun sigra",
             "image": "https://eurovision.tv/image/8d9181ea-f8b0-4c3b-95ef-5014f053c878.png",
-            "final": false
+            "final": true
         },
         {
             "country": "Ireland",
@@ -232,11 +232,11 @@
             "final": false
         },
         {
-            "country": "San Narino",
+            "country": "San Marino",
             "artist": "Serhat",
             "song": "Say Na Na Na",
             "image": "https://eurovision.tv/image/8d9181c6-113d-402f-9459-91ed681ccd01.png",
-            "final": false
+            "final": true
         },
         {
             "country": "Serbia",
@@ -250,7 +250,7 @@
             "artist": "Zala Kralj & Gašper Šantl",
             "song": "Sebi",
             "image": "https://eurovision.tv/image/8d9181f8-1c09-449b-b3fc-4fc7bc8c4f7b.jpg",
-            "final": false
+            "final": true
         },
         {
             "country": "Spain",

@@ -21,14 +21,15 @@ class Vote extends React.Component {
       <VotePage>
         <ul>
           { participants[2019].map((p, i) => (
-            <Participant participant={p} selected={this.state.selected === i} onClick={() => { this.selectParticipant(i) }} key={`Participant-${i}`} />
+            p.final ? <Participant participant={p} selected={this.state.selected === i} onClick={() => { this.selectParticipant(i) }} key={`Participant-${i}`} /> : null
           )) }
         </ul>
         <style jsx>{`
           ul {
             list-style: none;
             padding: 0;
-            margin: 0;
+            margin: 0 auto;
+            max-width: 600px;
           }
         `}</style>
       </VotePage>

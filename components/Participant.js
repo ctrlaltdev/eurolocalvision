@@ -4,11 +4,12 @@ const Participant = ({ participant, selected, onClick }) => (
     <h3>{ participant.artist }</h3>
     {/* { participant.final && <p>In Grand Final</p> } */}
     <p>{ participant.song }</p>
+    { selected && <button className='Vote'><span>Vote</span></button> }
     <style jsx>{`
       li {
         position: relative;
         cursor: pointer;
-        height: 250px;
+        height: 300px;
         width: calc(100% - 2rem);
         margin: 0 1rem;
         padding: 1rem;
@@ -20,7 +21,7 @@ const Participant = ({ participant, selected, onClick }) => (
       li.selected {
         margin: 0;
         width: 100%;
-        height: calc(250px + 2rem);
+        height: calc(300px + 2rem);
         transition: margin 0.5s, width 0.5s, height 0.5s;
       }
 
@@ -38,6 +39,50 @@ const Participant = ({ participant, selected, onClick }) => (
       
       li * {
         position: relative;
+      }
+
+      h2 {
+        text-transform: uppercase;
+        font-weight: bold;
+        margin: 0;
+        font-size: 2rem;
+        line-height: 1;
+        margin-bottom: 1rem;
+      }
+
+      h3 {
+        margin: 0;
+        font-size: 1rem;
+        line-height: 1;
+        font-weight: normal;
+        margin-bottom: 0.5rem;
+      }
+
+      p {
+        margin: 0;
+        font-size: 1rem;
+        line-height: 1;
+      }
+
+      button.Vote {
+        position: absolute;
+        bottom: 2rem;
+        right: 2rem;
+        background-color: White;
+        border: none;
+        padding: 0;
+        cursor: pointer;
+      }
+
+      .Vote span {
+        display: block;
+        background: -442px -229px / 600px 315px url(${participant.image}?p=card) no-repeat;
+        padding: 0.5rem 1rem;
+        color: transparent;
+        text-transform: uppercase;
+        font-weight: bold;
+        background-clip: text;
+        font-size: 2rem;
       }
     `}</style>
   </li>
