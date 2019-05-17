@@ -82,6 +82,7 @@ const Participant = ({ participant, selected, onClick }) => (
         text-transform: uppercase;
         font-weight: bold;
         background-clip: text;
+        -webkit-background-clip: text;
         font-size: 2rem;
       }
     `}</style>

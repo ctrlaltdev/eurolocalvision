@@ -20,8 +20,8 @@ class Vote extends React.Component {
     return (
       <VotePage>
         <ul>
-          { participants[2019].map((p, i) => (
-            p.final ? <Participant participant={p} selected={this.state.selected === i} onClick={() => { this.selectParticipant(i) }} key={`Participant-${i}`} /> : null
+          { participants[2019].filter(e => e.final).sort((a,b) => a.order - b.order).map((p, i) => (
+            <Participant participant={p} selected={this.state.selected === i} onClick={() => { this.selectParticipant(i) }} key={`Participant-${i}`} />
           )) }
         </ul>
         <style jsx>{`
