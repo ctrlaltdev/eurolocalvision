@@ -10,6 +10,19 @@ const Home = props => (
       html {
         height: 100%;
       }
+
+      body::before {
+        content: '';
+        display: block;
+        position: fixed;
+        left: 0;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        z-index: -10;
+        background: center / cover url(https://eurovision.tv/images/background.jpg?id=3381b429ff2057adf85c) no-repeat fixed;
+      }
+
       body { 
         min-height: 100%;
         font-size: 8px;
@@ -17,7 +30,6 @@ const Home = props => (
         color: #White;
         margin: 0;
         padding: 0;
-        background: center / cover url(https://eurovision.tv/images/background.jpg?id=3381b429ff2057adf85c) no-repeat fixed;
       }
     `}</style>
     {props.children}

@@ -1,10 +1,10 @@
-const Participant = ({ participant, selected, onClick }) => (
+const Participant = ({ participant, selected, points, onClick, vote }) => (
   <li className={selected ? 'selected' : ''} onClick={onClick}>
     <h2>{ participant.country }</h2>
     <h3>{ participant.artist }</h3>
-    {/* { participant.final && <p>In Grand Final</p> } */}
     <p>{ participant.song }</p>
-    { selected && <button className='Vote'><span>Vote</span></button> }
+    { points > 0 ? <div className='Points'>{points}</div> : null }
+    { selected && <button className='Vote' onClick={vote}><span>Vote</span></button> }
     <style jsx>{`
       li {
         position: relative;
@@ -72,6 +72,19 @@ const Participant = ({ participant, selected, onClick }) => (
         border: none;
         padding: 0;
         cursor: pointer;
+      }
+
+      div.Points {
+        position: absolute;
+        top: 1rem;
+        right: 1rem;
+        font-size: 1rem;
+        border: 1px solid White;
+        border-radius: 3rem;
+        width: 3rem;
+        height: 3rem;
+        text-align: center;
+        line-height: 3rem;
       }
 
       .Vote span {
