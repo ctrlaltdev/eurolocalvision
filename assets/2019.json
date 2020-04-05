@@ -1,0 +1,315 @@
+[
+    {
+        "country": "Albania",
+        "artist": "Jonida Maliqi",
+        "song": "Ktheju tokës",
+        "image": "8d9181f7-788b-4844-a6e6-906e0443f747",
+        "final": true,
+        "order": 2
+    },
+    {
+        "country": "Armenia",
+        "artist": "Srbuk",
+        "song": "Walking Out",
+        "image": "8d9181f7-39af-4be9-8ee4-837e1aee0a98",
+        "final": false
+    },
+    {
+        "country": "Australia",
+        "artist": "Kate Miller-Heidke",
+        "song": "Zero Gravity",
+        "image": "8d9181f9-b468-4d5a-8f23-aaf81ef80fcc",
+        "final": true
+    },
+    {
+        "country": "Austria",
+        "artist": "PÆNDA",
+        "song": "Limits",
+        "image": "8d9181f9-d31c-4fd6-bf40-bf56084e992b",
+        "final": true,
+        "order": 25
+    },
+    {
+        "country": "Azerbaijan",
+        "artist": "Chingiz",
+        "song": "Truth",
+        "image": "8d9181f2-22f7-463d-850d-d79ddcbe4bc5",
+        "final": true,
+        "order": 20
+    },
+    {
+        "country": "Belarus",
+        "artist": "ZENA",
+        "song": "Like It",
+        "image": "8d9181f7-8e21-43a1-a3cf-4b6820514f83",
+        "final": true,
+        "order": 19
+    },
+    {
+        "country": "Belgium",
+        "artist": "Eliot",
+        "song": "Wake Up",
+        "image": "8d9181fa-6198-4723-a537-1d2c75d56f40",
+        "final": false
+    },
+    {
+        "country": "Croatia",
+        "artist": "Roko",
+        "song": "The Dream",
+        "image": "8d9181f9-752c-414d-9d71-a6763decf840",
+        "final": false
+    },
+    {
+        "country": "Cyprus",
+        "artist": "Tamta",
+        "song": "Replay",
+        "image": "8d9181ef-45fa-492d-ab78-328183222f8e",
+        "final": true,
+        "order": 11
+    },
+    {
+        "country": "Czech Republic",
+        "artist": "Lake Malawi",
+        "song": "Friend of a Friend",
+        "image": "8d9181f6-ebca-482b-8e4b-443ce37fd4e5",
+        "final": true,
+        "order": 3
+    },
+    {
+        "country": "Denmark",
+        "artist": "Leonora",
+        "song": "Love Is Forever",
+        "image": "8d9181fa-7714-42cf-bd0f-e802a9cbfc08",
+        "final": true,
+        "order": 6
+    },
+    {
+        "country": "Estonia",
+        "artist": "Victor Crone",
+        "song": "Storm",
+        "image": "8d9181f3-6091-4599-8f58-a8c892c14d73",
+        "final": true,
+        "order": 18
+    },
+    {
+        "country": "Finland",
+        "artist": "Darude feat. Sebastian Rejman",
+        "song": "Look Away",
+        "image": "8d9181f6-770f-49e1-8b3b-608e05932c20",
+        "final": false
+    },
+    {
+        "country": "France",
+        "artist": "Bilal Hassani",
+        "song": "Roi",
+        "image": "8d9181ca-f70f-4fe1-996f-6f6ebbc4c0f9",
+        "final": true,
+        "order": 21
+    },
+    {
+        "country": "Georgia",
+        "artist": "Oto Nemsadze",
+        "song": "Keep on going",
+        "image": "8d9181f2-ae36-4bfe-b4c6-f91f0e9de9fc",
+        "final": false
+    },
+    {
+        "country": "Germany",
+        "artist": "S!sters",
+        "song": "Sister",
+        "image": "8d9181fc-eb3e-47fd-807f-c6c385e0976a",
+        "final": true,
+        "order": 4
+    },
+    {
+        "country": "Greece",
+        "artist": "Katerine Duska",
+        "song": "Better Love",
+        "image": "8d9181ef-1d18-4ea9-a9ae-2f5f8245b639",
+        "final": true,
+        "order": 13
+    },
+    {
+        "country": "Hungary",
+        "artist": "Joci Pápai",
+        "song": "Az én apám",
+        "image": "8d9181e6-7891-4737-8734-eae6a92167a9",
+        "final": false
+    },
+    {
+        "country": "Iceland",
+        "artist": "Hatari",
+        "song": "Hatrið mun sigra",
+        "image": "8d9181ea-f8b0-4c3b-95ef-5014f053c878",
+        "final": true,
+        "order": 17
+    },
+    {
+        "country": "Ireland",
+        "artist": "Sarah McTernan",
+        "song": "22",
+        "image": "8d9181f1-1c52-4ede-888d-e6436a990376",
+        "final": false
+    },
+    {
+        "country": "Israel",
+        "artist": "Kobi Marimi",
+        "song": "Home",
+        "image": "8d9181f2-bf96-46af-9409-c81613e5a08d",
+        "final": true,
+        "order": 14
+    },
+    {
+        "country": "Italy",
+        "artist": "Mahmood",
+        "song": "Soldi",
+        "image": "8d9181eb-8d21-4476-84ee-661c564a88d8",
+        "final": true,
+        "order": 22
+    },
+    {
+        "country": "Latvia",
+        "artist": "Carousel",
+        "song": "That Night",
+        "image": "8d9181fa-0070-4a23-80e2-72dc9694c59c",
+        "final": false
+    },
+    {
+        "country": "Lithuania",
+        "artist": "Jurij Veklenko",
+        "song": "Run With The Lions",
+        "image": "8d9181f6-9dfe-4430-a813-0043d0a50d27",
+        "final": false
+    },
+    {
+        "country": "Malta",
+        "artist": "Michela",
+        "song": "Chameleon",
+        "image": "8d9181f6-c617-4c63-8469-d03ab72d8d76",
+        "final": true,
+        "order": 1
+    },
+    {
+        "country": "Moldova",
+        "artist": "Anna Odobescu",
+        "song": "Stay",
+        "image": "8d9181ea-879c-4ed3-9751-361b1b856ad9",
+        "final": false
+    },
+    {
+        "country": "Montenegro",
+        "artist": "D mol",
+        "song": "Heaven",
+        "image": "8d9181f7-01fa-4eb3-b88a-b5e0be9328cc",
+        "final": false
+    },
+    {
+        "country": "North Macedonia",
+        "artist": "Tamara Todevska",
+        "song": "Proud",
+        "image": "8d9181f2-cfd7-4f52-80a8-ba2b51c5576a",
+        "final": true,
+        "order": 8
+    },
+    {
+        "country": "Norway",
+        "artist": "KEiiNO",
+        "song": "Spirit in the Sky",
+        "image": "8d9181c9-014d-4c65-8c59-12e73a3e2c33",
+        "final": true,
+        "order": 15
+    },
+    {
+        "country": "Poland",
+        "artist": "Tulia",
+        "song": "Fire of Love (Pali się)",
+        "image": "8d9181db-6813-4df3-8930-5c6048372d9b",
+        "final": false
+    },
+    {
+        "country": "Portugal",
+        "artist": "Conan Osiris",
+        "song": "Telemóveis",
+        "image": "8d9181f3-0513-40ee-b9a3-2c964566677a",
+        "final": false
+    },
+    {
+        "country": "Romania",
+        "artist": "Ester Peony",
+        "song": "On a Sunday",
+        "image": "8d9181f6-8901-4026-8c27-357bb018e53c",
+        "final": false
+    },
+    {
+        "country": "Russia",
+        "artist": "Sergey Lazarev",
+        "song": "Scream",
+        "image": "8d9181d0-25ee-4601-9bfe-0acdb6abfacf",
+        "final": true,
+        "order": 5
+    },
+    {
+        "country": "San Marino",
+        "artist": "Serhat",
+        "song": "Say Na Na Na",
+        "image": "8d9181c6-113d-402f-9459-91ed681ccd01",
+        "final": true,
+        "order": 7
+    },
+    {
+        "country": "Serbia",
+        "artist": "Nevena Božović",
+        "song": "Kruna",
+        "image": "8d9181f7-d905-47a7-bace-513599ca2195",
+        "final": true,
+        "order": 23
+    },
+    {
+        "country": "Slovenia",
+        "artist": "Zala Kralj & Gašper Šantl",
+        "song": "Sebi",
+        "image": "8d9181f8-1c09-449b-b3fc-4fc7bc8c4f7b",
+        "final": true,
+        "order": 10
+    },
+    {
+        "country": "Spain",
+        "artist": "Miki",
+        "song": "La Venda",
+        "image": "8d9181f6-b3fa-4e79-aa70-687be4d21921",
+        "final": true,
+        "order": 26
+    },
+    {
+        "country": "Sweden",
+        "artist": "John Lundvik",
+        "song": "Too Late For Love",
+        "image": "8d9181f8-2e1f-44cd-98de-ba0e144baabf",
+        "final": true,
+        "order": 9
+    },
+    {
+        "country": "Switzerland",
+        "artist": "Luca Hänni",
+        "song": "She Got Me",
+        "image": "8d9181ef-986f-4f88-8251-cc4dc5d6357c",
+        "final": true,
+        "order": 24
+    },
+    {
+        "country": "The Netherlands",
+        "artist": "Duncan Laurence",
+        "song": "Arcade",
+        "image": "8d9181f0-6b70-44c0-bd27-0867a4547cd2",
+        "final": true,
+        "order": 12
+    },
+    {
+        "country": "United Kingdom",
+        "artist": "Michael Rice",
+        "song": "Bigger Than Us",
+        "image": "8d9181f8-e268-4169-84ca-5587cea91360",
+        "final": true,
+        "order": 16
+    }
+]

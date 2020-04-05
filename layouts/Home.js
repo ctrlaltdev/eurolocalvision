@@ -4,6 +4,7 @@ const Home = props => (
   <main>
     <Head>
       <meta name="viewport" content="width=device-width, initial-scale=1" />
+      <meta name="theme-color" content="#FFD700" />
       <meta charSet="utf-8" />
     </Head>
     <style jsx global>{`
@@ -20,7 +21,7 @@ const Home = props => (
         bottom: 0;
         right: 0;
         z-index: -10;
-        background: center / cover url(https://eurovision.tv/images/background.jpg?id=3381b429ff2057adf85c) no-repeat fixed;
+        background: center / cover url(/img/bg.jpg) no-repeat fixed;
       }
 
       body { 

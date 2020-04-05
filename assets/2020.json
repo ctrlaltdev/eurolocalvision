@@ -1,0 +1,289 @@
+[
+    {
+        "country": "Albania",
+        "artist": "Arilena Ara",
+        "song": "Fall From The Sky",
+        "image": "900c6b50-b668-4b50-b228-c6ffdc4f9497",
+        "video": "https://www.youtube.com/watch?v=p-E-kIFPrsY"
+    },
+    {
+        "country": "Armenia",
+        "artist": "Athena Manoukian",
+        "song": "Chains On You",
+        "image": "90131a46-54fd-48a6-a6b6-578a29d45f60",
+        "video": ""
+    },
+    {
+        "country": "Australia",
+        "artist": "Montaigne",
+        "song": "Don't Break Me",
+        "image": "8fce584b-6a67-435b-947a-c01273f72faa",
+        "video": ""
+    },
+    {
+        "country": "Austria",
+        "artist": "Vincent Bueno",
+        "song": "Alive",
+        "image": "901b5b33-f05b-4194-aa38-81a47dd1464f",
+        "video": ""
+    },
+    {
+        "country": "Azerbaijan",
+        "artist": "Efendi",
+        "song": "Cleopatra",
+        "image": "900c6748-fdd4-43f8-8f80-63d343d0a723",
+        "video": ""
+    },
+    {
+        "country": "Belarus",
+        "artist": "VAL",
+        "song": "Da Vidna",
+        "image": "900c8479-d68a-4c1c-815c-f6868400bb10",
+        "video": ""
+    },
+    {
+        "country": "Belgium",
+        "artist": "Hooverphonic",
+        "song": "Release Me",
+        "image": "8ec984e0-e133-49f9-bf26-71a555a56f36",
+        "video": ""
+    },
+    {
+        "country": "Bulgaria",
+        "artist": "VICTORIA",
+        "song": "Tears Getting Sober",
+        "image": "901a9394-ec82-4522-a3d7-9938c4ed3f88",
+        "video": ""
+    },
+    {
+        "country": "Croatia",
+        "artist": "Damir Kedžo",
+        "song": "Divlji Vjetre",
+        "image": "901b68b2-09d1-473f-85d3-1add2c0df292",
+        "video": ""
+    },
+    {
+        "country": "Cyprus",
+        "artist": "Sandro",
+        "song": "Running",
+        "image": "900c790a-b711-48a0-9987-9be788e2bf43",
+        "video": ""
+    },
+    {
+        "country": "Czech Republic",
+        "artist": "Benny Cristo",
+        "song": "Kemama",
+        "image": "8fc46eaa-e939-4f37-9e37-233184ba2024",
+        "video": ""
+    },
+    {
+        "country": "Denmark",
+        "artist": "Ben & Tan",
+        "song": "YES",
+        "image": "901b612d-4efa-46db-97dc-998201735350",
+        "video": ""
+    },
+    {
+        "country": "Estonia",
+        "artist": "Uku Suviste",
+        "song": "What Love Is",
+        "image": "900c8edb-53ec-437a-b1c1-8f373e8c4670",
+        "video": ""
+    },
+    {
+        "country": "Finland",
+        "artist": "Aksel",
+        "song": "Looking Back",
+        "image": "8fa9da2b-41fd-4613-ae26-344c17cfb2d0",
+        "video": ""
+    },
+    {
+        "country": "France",
+        "artist": "Tom Leeb",
+        "song": "Mon Alliée (The Best In Me)",
+        "image": "901976c4-51f5-4b79-9a74-d5d0d4a396a9",
+        "video": ""
+    },
+    {
+        "country": "Georgia",
+        "artist": "Tornike Kipiani",
+        "song": "Take Me As I Am",
+        "image": "9008e348-a95a-4788-a19c-10bcc7faec2d",
+        "video": ""
+    },
+    {
+        "country": "Germany",
+        "artist": "Ben Dolic",
+        "song": "Violent Thing",
+        "image": "8ff46f19-47f6-4245-8f9c-ac041c281c69",
+        "video": ""
+    },
+    {
+        "country": "Greece",
+        "artist": "Stefania",
+        "song": "SUPERG!RL",
+        "image": "900c71a8-f3da-4274-8c9c-37de47a681f4",
+        "video": ""
+    },
+    {
+        "country": "Iceland",
+        "artist": "Daði og Gagnamagnið",
+        "song": "Think About Things",
+        "image": "901b4995-1bf6-4002-8350-099ba7b51146",
+        "video": ""
+    },
+    {
+        "country": "Ireland",
+        "artist": "Lesley Roy",
+        "song": "Story Of My Life",
+        "image": "9000da1e-b754-450d-8d11-8f65b45ddd19",
+        "video": ""
+    },
+    {
+        "country": "Israel",
+        "artist": "Eden Alene",
+        "song": "Feker Libi",
+        "image": "9000527b-080e-4981-8a05-191c9848f840",
+        "video": ""
+    },
+    {
+        "country": "Italy",
+        "artist": "Diodato",
+        "song": "Fai Rumore",
+        "image": "8fd82d58-c5b6-4dbe-b415-333fa928bb46",
+        "video": ""
+    },
+    {
+        "country": "Latvia",
+        "artist": "Samanta Tīna",
+        "song": "Still Breathing",
+        "image": "900c9068-58bf-4265-8016-ce33043840a7",
+        "video": ""
+    },
+    {
+        "country": "Lithuania",
+        "artist": "The Roop",
+        "song": "On Fire",
+        "image": "8ffabd1c-dc65-444e-825f-7527870233e7",
+        "video": ""
+    },
+    {
+        "country": "Malta",
+        "artist": "Destiny",
+        "song": "All Of My Love",
+        "image": "901b1016-55ef-4b19-a42d-7d4345ae5230",
+        "video": ""
+    },
+    {
+        "country": "Moldova",
+        "artist": "Natalia Gordienko",
+        "song": "Prison",
+        "image": "9010a8cb-96ae-4191-8596-af01d7245128",
+        "video": ""
+    },
+    {
+        "country": "North Macedonia",
+        "artist": "Vasil",
+        "song": "YOU",
+        "image": "9002b09a-fbae-4d03-bdc6-8313ab0dfd13",
+        "video": ""
+    },
+    {
+        "country": "Norway",
+        "artist": "Ulrikke",
+        "song": "Attention",
+        "image": "901b06f6-0d75-4112-a411-697b628fbdc7",
+        "video": ""
+    },
+    {
+        "country": "Poland",
+        "artist": "Alicja",
+        "song": "Empires",
+        "image": "8fe87401-a938-460b-9559-346def3626f3",
+        "video": ""
+    },
+    {
+        "country": "Portugal",
+        "artist": "Elisa",
+        "song": "Medo De Sentir",
+        "image": "900c75ad-67a9-4fec-b6d0-0307ddcc9d0f",
+        "video": ""
+    },
+    {
+        "country": "Romania",
+        "artist": "ROXEN",
+        "song": "Alcohol You",
+        "image": "9018944a-4e06-4b9a-81aa-e6873c9cdf91",
+        "video": ""
+    },
+    {
+        "country": "Russia",
+        "artist": "Little Big",
+        "song": "Uno",
+        "image": "8ffd1f05-450e-409a-80b2-72de55937b87",
+        "video": ""
+    },
+    {
+        "country": "San Marino",
+        "artist": "Senhit",
+        "song": "Freaky!",
+        "image": "90029d06-1c70-4dec-bd87-ce46b8793b54",
+        "video": ""
+    },
+    {
+        "country": "Serbia",
+        "artist": "Hurricane",
+        "song": "Hasta La Vista",
+        "image": "900af4fc-e165-4d6d-afcc-5a473ddd077c",
+        "video": ""
+    },
+    {
+        "country": "Slovenia",
+        "artist": "Ana Soklič",
+        "song": "Voda",
+        "image": "901af45e-32b3-46f2-81e1-92d854ebadde",
+        "video": ""
+    },
+    {
+        "country": "Spain",
+        "artist": "Blas Cantó",
+        "song": "Universo",
+        "image": "90195ae4-1ea7-488a-8629-0ecccd258378",
+        "video": ""
+    },
+    {
+        "country": "Sweden",
+        "artist": "The Mamas",
+        "song": "Move",
+        "image": "900c7edf-74be-418f-b609-6ae310e78b6a",
+        "video": ""
+    },
+    {
+        "country": "Switzerland",
+        "artist": "Gjon's Tears",
+        "song": "Répondez-moi",
+        "image": "9000a94c-062b-4fc8-b5fb-e31af341e03f",
+        "video": ""
+    },
+    {
+        "country": "The Netherlands",
+        "artist": "Jeangu Macrooy",
+        "song": "Grow",
+        "image": "9000990e-7ff0-4e3f-8a28-4b1f6bb08c8c",
+        "video": ""
+    },
+    {
+        "country": "Ukraine",
+        "artist": "Go_A",
+        "song": "Solovey",
+        "image": "900d61fa-2773-4ebb-a294-3f203229f00c",
+        "video": ""
+    },
+    {
+        "country": "United Kingdom",
+        "artist": "James Newman",
+        "song": "My Last Breath",
+        "image": "8ff44774-27a8-4fdc-b403-770eaa64c8bc",
+        "video": ""
+    }
+]

@@ -18,7 +18,7 @@ const Candidate = ({ participant, vote }) => (
         margin: 0;
         padding: 1rem;
         box-sizing: border-box;
-        background: center / cover url(${participant.image}?p=card) no-repeat;
+        background: center / cover url(https://eurovision.tv/image/${participant.image}/card.jpg) no-repeat;
         transition: margin 0.5s, width 0.5s, height 0.5s;
       }
 

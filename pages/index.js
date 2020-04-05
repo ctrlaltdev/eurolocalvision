@@ -1,60 +1,81 @@
 import Home from '../layouts/Home'
+import Participant from '../components/Participant'
+import Candidate from '../components/Candidate'
+import participants from '../assets/participants'
 
-class Index extends React.Component {
-  constructor () {
-    super()
-
+class Vote extends React.Component {
+  constructor (props) {
+    super(props)
     this.state = {
-      user: null,
-      userSaved: false
+      selected: null,
+      voting: null,
+      votes: {},
+      candidates: [],
+      year: !props.year ? new Date().getFullYear() : this.props.year
     }
   }
 
   componentDidMount () {
-    const user = localStorage.getItem('user')
-    if (user !== null) {
-      this.setState({ user: user, userSaved: true })
-      window.location.assign('/vote')
+    const votes = localStorage.getItem('votes')
+    if (votes !== null) {
+      this.setState({ votes: JSON.parse(votes) })
     }
+
+    this.setState({ candidates: participants[this.state.year] })
   }
 
-  saveName = (e) => {
-    e.preventDefault()
-    this.setState({ user: e.target[0].value, userSaved: true })
-    localStorage.setItem('user', e.target[0].value)
-    window.location.assign('/vote')
+  selectParticipant = (i) => {
+    let selection = i
+    if (i === this.state.selected) { selection = null }
+    this.setState({ selected: selection })
+  }
+
+  vote = (i) => {
+    this.setState({ voting: i })
+  }
+
+  assignPoints = (pt, index = this.state.voting) => {
+    let newVotes = { ...this.state.votes }
+    newVotes[pt] = index
+    localStorage.setItem('votes', JSON.stringify(newVotes))
+    this.setState({ votes: newVotes, voting: null })
   }
 
   render () {
     return (
-      <Home>
-        { 
-          !this.state.userSaved ?
-            <form onSubmit={this.saveName}>
-              <input name='user' type='text' placeholder="What's your name?" />
-            </form> :
-            <h2>Hi {this.state.user}</h2>
+      <Home year={this.state.year}>
+        <ul>
+          { this.state.candidates.map((p, i) => (
+            <Participant participant={p} points={Object.keys(this.state.votes).find(key => this.state.votes[key] === i)} selected={this.state.selected === i} onClick={() => { this.selectParticipant(i) }} key={`Participant-${i}`} vote={() => { this.vote(i) }} />
+          )) }
+        </ul>
+        {
+          this.state.voting !== null ?
+            <div className='Voting'>
+                <Candidate participant={this.state.candidates[this.state.voting]} vote={this.assignPoints} />
+            </div> :
+            null
         }
         <style jsx>{`
-          h2 {
-            text-align: center;
-            color: White;
-            font-size: 2rem;
-          }
-
-          form {
+          ul {
+            list-style: none;
+            padding: 0;
+            margin: 0 auto;
             max-width: 600px;
-            margin: 2rem auto;
-            text-align: center;
           }
-
-          input {
-            text-align: center;
+          .Voting {
+            position: fixed;
+            top: 0;
+            left: 0;
+            bottom: 0;
+            right: 0;
+            background-color: White;
+            list-style: none;
           }
-         `}</style>
+        `}</style>
       </Home>
     )
   }
 }
 
-export default Index
+export default Vote
