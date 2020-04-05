@@ -1,9 +1,9 @@
-import Home from '../layouts/Home'
+import HomeLayout from '../layouts/Home'
 import Participant from '../components/Participant'
 import Candidate from '../components/Candidate'
 import participants from '../assets/participants'
 
-class Vote extends React.Component {
+class Home extends React.Component {
   constructor (props) {
     super(props)
     this.state = {
@@ -43,7 +43,7 @@ class Vote extends React.Component {
 
   render () {
     return (
-      <Home year={this.state.year}>
+      <HomeLayout year={this.state.year}>
         <ul>
           { this.state.candidates.map((p, i) => (
             <Participant participant={p} points={Object.keys(this.state.votes).find(key => this.state.votes[key] === i)} selected={this.state.selected === i} onClick={() => { this.selectParticipant(i) }} key={`Participant-${i}`} vote={() => { this.vote(i) }} />
@@ -73,9 +73,9 @@ class Vote extends React.Component {
             list-style: none;
           }
         `}</style>
-      </Home>
+      </HomeLayout>
     )
   }
 }
 
-export default Vote
+export default Home
