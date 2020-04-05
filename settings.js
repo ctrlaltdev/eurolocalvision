@@ -1,3 +1,3 @@
 module.exports = {
-    SERVER_URL: process.env.SERVER_URL || 'https://localhost:1337'
+    SERVER_URL: 'https://api-esc.ctrlalt.dev'
 }
