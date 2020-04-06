@@ -1,3 +1,3 @@
 import Index from './index'
 
-export default () => <Index year={2019} />
+export default () => <Index stream={{}} year={2019} />
