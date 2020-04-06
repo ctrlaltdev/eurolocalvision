@@ -28,7 +28,7 @@ const Home = props => (
         min-height: 100%;
         font-size: 8px;
         font-family: sans-serif;
-        color: #White;
+        color: White;
         margin: 0;
         padding: 0;
       }

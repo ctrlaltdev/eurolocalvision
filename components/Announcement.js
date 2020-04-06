@@ -1,12 +1,18 @@
 const Announcement = props => (
     <div className='Announcement'>
-        { props.children }
+        <span className='Announcement__Content'>{ props.children }</span>
         <style jsx>{`
             .Announcement {
                 font-size: 2rem;
                 text-align: center;
                 color: White;
-                line-height: 100vh;
+                height: 100vh;
+            }
+            .Announcement__Content {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 100%;
             }
         `}</style>
     </div>
