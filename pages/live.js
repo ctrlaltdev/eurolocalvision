@@ -1,6 +1,7 @@
 import LiveLayout from '../layouts/Live'
 import Stream from '../utils/Stream'
 import Hero from '../components/Hero'
+import Announcement from '../components/Announcement'
 
 import participants from '../assets/participants'
 
@@ -9,9 +10,8 @@ class Live extends React.Component {
         super()
         this.state = {
             loading: true,
+            started: false,
             country: null,
-            year: new Date().getFullYear(),
-            candidates: participants[new Date().getFullYear()],
             current: null
         }
     }
@@ -20,31 +20,20 @@ class Live extends React.Component {
         const updates = new Stream('current')
         updates.onmessage = data => {
             this.setState({
-                ...data
-            })
-        }
-    }
-
-    componentDidUpdate (prevProps, prevState) {
-        if (prevState.country !== this.state.country) {
-            this.setState({
                 loading: false,
-                current: this.state.candidates.filter(c => c.country === this.state.country)[0]
+                ...data,
+                current: data.country ? participants[data.year].filter(c => c.country === data.country)[0] : null
             })
         }
     }
 
     render () {
-        if (this.state.loading) {
-            return (
-                <LiveLayout year={this.state.year}>
-                    Loading...
-                </LiveLayout>
-            )
-        }
+        const showHero = !this.state.loading && this.state.started && this.state.current
         return (
             <LiveLayout year={this.state.year}>
-                <Hero participant={this.state.current} />
+                { this.state.loading && <Announcement>Loading...</Announcement> }
+                { !this.state.started && <Announcement>The contest hasn't started yet.</Announcement> }
+                { showHero && <Hero participant={this.state.current} /> }
             </LiveLayout>
         )
     }
