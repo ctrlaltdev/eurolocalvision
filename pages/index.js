@@ -1,6 +1,5 @@
 import HomeLayout from '../layouts/Home'
 import Participant from '../components/Participant'
-import Candidate from '../components/Candidate'
 import participants from '../assets/participants'
 
 class Home extends React.Component {
@@ -42,35 +41,66 @@ class Home extends React.Component {
   }
 
   render () {
+    const liveParticipant = this.props.stream.started && this.state.candidates.filter(p => p.country === this.props.stream.country)[0]
+
     return (
       <HomeLayout year={this.state.year}>
+        <section className='Live'>
+          { liveParticipant &&
+            <a href="/live">
+              <Participant participant={liveParticipant} live />
+              <div className='Live__Indicator'><span className='Live__Dot'>●</span> LIVE</div>
+            </a>
+          }
+        </section>
         <ul>
           { this.state.candidates.map((p, i) => (
-            <Participant participant={p} points={Object.keys(this.state.votes).find(key => this.state.votes[key] === i)} selected={this.state.selected === i} onClick={() => { this.selectParticipant(i) }} key={`Participant-${i}`} vote={() => { this.vote(i) }} />
+            <Participant participant={p} points={Object.keys(this.state.votes).find(key => this.state.votes[key] === i)} selected={this.state.selected === i} onClick={() => { this.selectParticipant(i) }} key={`Participant-${i}`} />
           )) }
         </ul>
-        {
-          this.state.voting !== null ?
-            <div className='Voting'>
-                <Candidate participant={this.state.candidates[this.state.voting]} vote={this.assignPoints} />
-            </div> :
-            null
-        }
         <style jsx>{`
+          .Live {
+            margin: 0 auto;
+            box-sizing: border-box;
+            max-width: 600px;
+            padding: 0 0 2rem 0;
+          }
+          .Live > a {
+            position: relative;
+            text-decoration: none;
+            display: block;
+          }
+          .Live__Indicator {
+            position: absolute;
+            bottom: 1rem;
+            right: 2rem;
+            font-size: 2rem;
+            color: Red;
+            font-weight: bold;
+            text-align: right;
+          }
+          .Live__Dot {
+            animation: 1s infinite alternate blink;
+          }
           ul {
             list-style: none;
             padding: 0;
             margin: 0 auto;
             max-width: 600px;
           }
-          .Voting {
-            position: fixed;
-            top: 0;
-            left: 0;
-            bottom: 0;
-            right: 0;
-            background-color: White;
-            list-style: none;
+
+          @keyframes blink {
+            from {
+              color: Red;
+            }
+
+            70% {
+              color: Red;
+            }
+
+            to {
+              color: DarkRed;
+            }
           }
         `}</style>
       </HomeLayout>

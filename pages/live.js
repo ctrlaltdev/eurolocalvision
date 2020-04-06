@@ -1,5 +1,4 @@
 import LiveLayout from '../layouts/Live'
-import Stream from '../utils/Stream'
 import Hero from '../components/Hero'
 import Announcement from '../components/Announcement'
 
@@ -16,13 +15,12 @@ class Live extends React.Component {
         }
     }
 
-    componentDidMount () {
-        const updates = new Stream('current')
-        updates.onmessage = data => {
+    componentDidUpdate (prevProps) {
+        if (prevProps.stream !== this.props.stream) {
             this.setState({
                 loading: false,
-                ...data,
-                current: data.country ? participants[data.year].filter(c => c.country === data.country)[0] : null
+                ...this.props.stream,
+                current: this.props.stream.country ? participants[this.props.stream.year].filter(c => c.country === this.props.stream.country)[0] : null
             })
         }
     }

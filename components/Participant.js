@@ -1,20 +1,19 @@
-const Participant = ({ participant, selected, points, onClick, vote }) => (
+const Participant = ({ participant, selected, points, onClick, live }) => (
   <li className={selected ? 'selected' : ''} onClick={onClick}>
     <h2>{ participant.country }</h2>
     <h3>{ participant.artist }</h3>
     <p>{ participant.song }</p>
     { points > 0 ? <div className='Points'>{points}</div> : null }
-    { selected && <button className='Vote' onClick={vote}><span>Vote</span></button> }
     <style jsx>{`
       li {
         position: relative;
         cursor: pointer;
-        height: 300px;
+        height: ${ live ? '100px' : '300px'};
         width: calc(100% - 2rem);
         margin: 0 1rem;
         padding: 1rem;
         box-sizing: border-box;
-        background: center / cover url(https://eurovision.tv/image/${participant.image}/card.jpg) no-repeat;
+        background: ${ live ? 'center top' : 'center'} / cover url(https://eurovision.tv/image/${participant.image}/card.jpg) no-repeat;
         transition: margin 0.5s, width 0.5s, height 0.5s;
       }
 
@@ -48,6 +47,7 @@ const Participant = ({ participant, selected, points, onClick, vote }) => (
         font-size: 2rem;
         line-height: 1;
         margin-bottom: 1rem;
+        color: White;
       }
 
       h3 {
@@ -56,12 +56,14 @@ const Participant = ({ participant, selected, points, onClick, vote }) => (
         line-height: 1;
         font-weight: normal;
         margin-bottom: 0.5rem;
+        color: White;
       }
 
       p {
         margin: 0;
         font-size: 1rem;
         line-height: 1;
+        color: White;
       }
 
       button.Vote {
