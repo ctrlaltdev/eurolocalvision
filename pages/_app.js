@@ -8,6 +8,7 @@ const withStream = WrappedComponent => {
       this.state = {
         started: false,
         country: null,
+        voting: false,
         year: new Date().getFullYear()
       }
     }
