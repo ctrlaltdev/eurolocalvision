@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import Header from '../components/Header'
 
 const Home = props => (
   <main>
@@ -33,6 +34,7 @@ const Home = props => (
         padding: 0;
       }
     `}</style>
+    <Header />
     {props.children}
   </main>
 )

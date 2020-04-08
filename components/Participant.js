@@ -13,7 +13,7 @@ const Participant = ({ participant, live }) => (
         min-width: calc(320px - 1rem);
         padding: 1rem;
         box-sizing: border-box;
-        background: ${ live ? 'center top' : 'center'} / cover url(https://eurovision.tv/image/${participant.image}/card.jpg) no-repeat;
+        background: ${ live ? 'center top' : 'center'} / cover url(https://eurovision.tv/image/${participant.image}.jpg) no-repeat;
         transition: margin 0.5s, width 0.5s, height 0.5s;
       }
 
@@ -84,7 +84,7 @@ const Participant = ({ participant, live }) => (
 
       .Vote span {
         display: block;
-        background: -442px -229px / 600px 315px url(https://eurovision.tv/image/${participant.image}/card.jpg) no-repeat;
+        background: -442px -229px / 600px 315px url(https://eurovision.tv/image/${participant.image}.jpg) no-repeat;
         padding: 0.5rem 1rem;
         color: transparent;
         text-transform: uppercase;

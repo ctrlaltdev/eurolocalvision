@@ -13,12 +13,21 @@ const withStream = WrappedComponent => {
       }
     }
 
-    componentDidMount() {
+    setUpStream () {
       this.source = new EventSource(`${SERVER_URL}/current/stream`)
       this.source.onmessage = e => {
         const data = JSON.parse(e.data)
         this.setState({ ...data })
       }
+      this.source.onerror = () => {
+        console.error('Connection lost to the stream, reconnecting...')
+        this.setUpStream()
+      }
+      this.source.onopen = () => console.info('Connected to the stream...')
+    }
+
+    componentDidMount() {
+      this.setUpStream()
     }
 
     render () {
