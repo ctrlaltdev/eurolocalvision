@@ -6,10 +6,10 @@ const withStream = WrappedComponent => {
       super(props)
 
       this.state = {
-        started: false,
+        live: false,
+        year: new Date().getFullYear(),
         country: null,
-        voting: false,
-        year: new Date().getFullYear()
+        voting: false
       }
     }
 

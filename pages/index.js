@@ -6,14 +6,13 @@ class Home extends React.Component {
   constructor (props) {
     super(props)
     this.state = {
-      selected: null,
-      candidates: [],
+      participants: [],
       year: !props.year ? new Date().getFullYear() : this.props.year
     }
   }
 
   componentDidMount () {
-    this.setState({ candidates: participants[this.state.year] })
+    this.setState({ participants: participants[this.state.year] })
   }
 
   selectParticipant = (i) => {
@@ -23,7 +22,7 @@ class Home extends React.Component {
   }
 
   render () {
-    const liveParticipant = this.props.stream.started && this.state.candidates.filter(p => p.country === this.props.stream.country)[0]
+    const liveParticipant = this.props.stream.live && this.state.participants.filter(p => p.country === this.props.stream.country)[0]
 
     return (
       <HomeLayout year={this.state.year}>
@@ -36,8 +35,8 @@ class Home extends React.Component {
           }
         </section>
         <ul>
-          { this.state.candidates.map((p, i) => (
-            <Participant participant={p} selected={this.state.selected === i} onClick={() => { this.selectParticipant(i) }} key={`Participant-${i}`} />
+          { this.state.participants.map((p, i) => (
+            <Participant participant={p} key={`Participant-${i}`} />
           )) }
         </ul>
         <style jsx>{`
