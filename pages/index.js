@@ -1,5 +1,6 @@
 import HomeLayout from '../layouts/Home'
 import Participant from '../components/Participant'
+import VoteNow from '../components/VoteNow'
 import participants from '../assets/participants'
 
 class Home extends React.Component {
@@ -23,7 +24,7 @@ class Home extends React.Component {
 
   render () {
     const liveParticipant = this.props.stream.live && this.state.participants.filter(p => p.country === this.props.stream.country)[0]
-
+    const voteNow = this.props.stream.voting
     return (
       <HomeLayout year={this.state.year}>
         <section className='Live'>
@@ -33,6 +34,7 @@ class Home extends React.Component {
               <div className='Live__Indicator'><span className='Live__Dot'>●</span> LIVE</div>
             </React.Fragment>
           }
+          { voteNow && <VoteNow /> }
         </section>
         <ul>
           { this.state.participants.map((p, i) => (
