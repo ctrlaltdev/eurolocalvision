@@ -8,7 +8,8 @@ class Home extends React.Component {
     super(props)
     this.state = {
       participants: [],
-      year: !props.year ? new Date().getFullYear() : this.props.year
+      year: !props.year ? new Date().getFullYear() : this.props.year,
+      collapsed: [false, false, false]
     }
   }
 
@@ -20,6 +21,14 @@ class Home extends React.Component {
     let selection = i
     if (i === this.state.selected) { selection = null }
     this.setState({ selected: selection })
+  }
+
+  collapsePhase = i => {
+    this.setState(({ collapsed }) => {
+      const newCollapsed = collapsed
+      newCollapsed[i - 1] = !collapsed[i - 1]
+      return { collapsed: newCollapsed }
+    })
   }
 
   render () {
@@ -36,11 +45,32 @@ class Home extends React.Component {
           }
           { voteNow && <VoteNow /> }
         </section>
-        <ul>
-          { this.state.participants.map((p, i) => (
-            <Participant participant={p} key={`Participant-${i}`} />
-          )) }
-        </ul>
+        <section className='Participants'>
+          <div className='Phase'>
+            <h2 onClick={() => this.collapsePhase(1)}>First Semi Final</h2>
+            <ul className={`List Semi1 ${this.state.collapsed[0] && 'List--collapsed'}`}>
+              { this.state.participants.filter(p => p.semifinal === 1).sort((a, b) => a.semiorder - b.semiorder).map((p, i) => (
+                <Participant participant={p} key={`Participant-${i}`} />
+              )) }
+            </ul>
+          </div>
+          <div className='Phase'>
+            <h2 onClick={() => this.collapsePhase(2)}>Second Semi Final</h2>
+            <ul className={`List Semi2 ${this.state.collapsed[1] && 'List--collapsed'}`}>
+              { this.state.participants.filter(p => p.semifinal === 2).sort((a, b) => a.semiorder - b.semiorder).map((p, i) => (
+                <Participant participant={p} key={`Participant-${i}`} />
+              )) }
+            </ul>
+          </div>
+          <div className='Phase'>
+            <h2>Grand Final</h2>
+            <ul className={`List Final ${this.state.collapsed[2] && 'List--collapsed'}`}>
+              { this.state.participants.filter(p => p.final).sort((a, b) => a.order - b.order).map((p, i) => (
+                <Participant participant={p} key={`Participant-${i}`} />
+              )) }
+            </ul>
+          </div>
+        </section>
         <style jsx>{`
           .Live {
             margin: 0 auto;
@@ -50,6 +80,7 @@ class Home extends React.Component {
             width: 100%;
             max-width: 800px;
           }
+
           .Live__Indicator {
             position: absolute;
             bottom: 0.5rem;
@@ -59,16 +90,51 @@ class Home extends React.Component {
             font-weight: bold;
             text-align: right;
           }
+
           .Live__Dot {
             animation: 1s infinite alternate blink;
           }
+
+          .Participants {
+            display: flex;
+            flex-flow: row wrap;
+          }
+
+          .Phase {
+            flex: 1 0 auto;
+            width: calc(100vw / 3);
+            min-width: 320px;
+          }
+          
+          .List {
+            overflow: hidden;
+            transition: height 0.5s;
+          }
+
+          .List--collapsed {
+            height: 0;
+            transition: height 0.5s;
+          }
+
+          .Phase h2 {
+            margin: 0;
+            background: center / cover url(/img/bg.jpg) no-repeat;
+            padding: 0.5rem 1rem;
+            color: rgba(255, 255, 255, 0.2);
+            text-transform: uppercase;
+            font-weight: bold;
+            background-clip: text;
+            -webkit-background-clip: text;
+            font-size: 2rem;
+            cursor: pointer;
+          }
+
           ul {
             list-style: none;
             padding: 0;
             margin: 0 auto;
             display: flex;
             flex-flow: row wrap;
-            justify-content: space-between;
           }
 
           @keyframes blink {

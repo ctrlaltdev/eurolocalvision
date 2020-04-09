@@ -8,7 +8,7 @@ const Participant = ({ participant, live }) => (
         ${ !live ? 'flex: 1 0 auto;' : '' }
         position: relative;
         height: ${ live ? '100%' : '300px'};
-        width: ${ live ? '100%' : 'calc(100% / 3 - 1rem)' };
+        width: ${ live ? '100%' : 'calc(100vw / 3 - 1rem)' };
         margin: ${ live ? '0' : '0.5rem' };
         min-width: calc(320px - 1rem);
         padding: 1rem;

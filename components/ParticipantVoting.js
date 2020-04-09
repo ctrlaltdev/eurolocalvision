@@ -19,7 +19,8 @@ const ParticipantVoting = ({ participant, onVote }) => (
         padding: 1rem;
         box-sizing: border-box;
         background: center / cover url(https://eurovision.tv/image/${participant.image}.jpg) no-repeat;
-        width: 250px;
+        width: 380px;
+        height: 200px;
       }
 
       .Info::before {

@@ -5,21 +5,26 @@
         "song": "Ktheju tokës",
         "image": "8d9181f7-788b-4844-a6e6-906e0443f747",
         "final": true,
-        "order": 2
+        "order": 2,
+        "semiorder": 14
     },
     {
         "country": "Armenia",
         "artist": "Srbuk",
         "song": "Walking Out",
         "image": "8d9181f7-39af-4be9-8ee4-837e1aee0a98",
-        "final": false
+        "final": false,
+        "semifinal": 2,
+        "semiorder": 1
     },
     {
         "country": "Australia",
         "artist": "Kate Miller-Heidke",
         "song": "Zero Gravity",
         "image": "8d9181f9-b468-4d5a-8f23-aaf81ef80fcc",
-        "final": true
+        "final": true,
+        "semifinal": 1,
+        "semiorder": 12
     },
     {
         "country": "Austria",
@@ -27,7 +32,9 @@
         "song": "Limits",
         "image": "8d9181f9-d31c-4fd6-bf40-bf56084e992b",
         "final": true,
-        "order": 25
+        "order": 25,
+        "semifinal": 2,
+        "semiorder": 9
     },
     {
         "country": "Azerbaijan",
@@ -35,7 +42,9 @@
         "song": "Truth",
         "image": "8d9181f2-22f7-463d-850d-d79ddcbe4bc5",
         "final": true,
-        "order": 20
+        "order": 20,
+        "semifinal": 2,
+        "semiorder": 18
     },
     {
         "country": "Belarus",
@@ -43,21 +52,27 @@
         "song": "Like It",
         "image": "8d9181f7-8e21-43a1-a3cf-4b6820514f83",
         "final": true,
-        "order": 19
+        "order": 19,
+        "semifinal": 1,
+        "semiorder": 8
     },
     {
         "country": "Belgium",
         "artist": "Eliot",
         "song": "Wake Up",
         "image": "8d9181fa-6198-4723-a537-1d2c75d56f40",
-        "final": false
+        "final": false,
+        "semifinal": 1,
+        "semiorder": 10
     },
     {
         "country": "Croatia",
         "artist": "Roko",
         "song": "The Dream",
         "image": "8d9181f9-752c-414d-9d71-a6763decf840",
-        "final": false
+        "final": false,
+        "semifinal": 2,
+        "semiorder": 10
     },
     {
         "country": "Cyprus",
@@ -65,7 +80,9 @@
         "song": "Replay",
         "image": "8d9181ef-45fa-492d-ab78-328183222f8e",
         "final": true,
-        "order": 11
+        "order": 11,
+        "semifinal": 1,
+        "semiorder": 1
     },
     {
         "country": "Czech Republic",
@@ -73,7 +90,9 @@
         "song": "Friend of a Friend",
         "image": "8d9181f6-ebca-482b-8e4b-443ce37fd4e5",
         "final": true,
-        "order": 3
+        "order": 3,
+        "semifinal": 1,
+        "semiorder": 6
     },
     {
         "country": "Denmark",
@@ -81,7 +100,9 @@
         "song": "Love Is Forever",
         "image": "8d9181fa-7714-42cf-bd0f-e802a9cbfc08",
         "final": true,
-        "order": 6
+        "order": 6,
+        "semifinal": 2,
+        "semiorder": 7
     },
     {
         "country": "Estonia",
@@ -89,14 +110,18 @@
         "song": "Storm",
         "image": "8d9181f3-6091-4599-8f58-a8c892c14d73",
         "final": true,
-        "order": 18
+        "order": 18,
+        "semifinal": 1,
+        "semiorder": 14
     },
     {
         "country": "Finland",
         "artist": "Darude feat. Sebastian Rejman",
         "song": "Look Away",
         "image": "8d9181f6-770f-49e1-8b3b-608e05932c20",
-        "final": false
+        "final": false,
+        "semifinal": 1,
+        "semiorder": 3
     },
     {
         "country": "France",
@@ -111,7 +136,9 @@
         "artist": "Oto Nemsadze",
         "song": "Keep on going",
         "image": "8d9181f2-ae36-4bfe-b4c6-f91f0e9de9fc",
-        "final": false
+        "final": false,
+        "semifinal": 1,
+        "semiorder": 11
     },
     {
         "country": "Germany",
@@ -127,14 +154,18 @@
         "song": "Better Love",
         "image": "8d9181ef-1d18-4ea9-a9ae-2f5f8245b639",
         "final": true,
-        "order": 13
+        "order": 13,
+        "semifinal": 1,
+        "semiorder": 16
     },
     {
         "country": "Hungary",
         "artist": "Joci Pápai",
         "song": "Az én apám",
         "image": "8d9181e6-7891-4737-8734-eae6a92167a9",
-        "final": false
+        "final": false,
+        "semifinal": 2,
+        "semiorder": 7
     },
     {
         "country": "Iceland",
@@ -142,14 +173,18 @@
         "song": "Hatrið mun sigra",
         "image": "8d9181ea-f8b0-4c3b-95ef-5014f053c878",
         "final": true,
-        "order": 17
+        "order": 17,
+        "semifinal": 1,
+        "semiorder": 13
     },
     {
         "country": "Ireland",
         "artist": "Sarah McTernan",
         "song": "22",
         "image": "8d9181f1-1c52-4ede-888d-e6436a990376",
-        "final": false
+        "final": false,
+        "semifinal": 2,
+        "semiorder": 2
     },
     {
         "country": "Israel",
@@ -172,14 +207,18 @@
         "artist": "Carousel",
         "song": "That Night",
         "image": "8d9181fa-0070-4a23-80e2-72dc9694c59c",
-        "final": false
+        "final": false,
+        "semifinal": 2,
+        "semiorder": 5
     },
     {
         "country": "Lithuania",
         "artist": "Jurij Veklenko",
         "song": "Run With The Lions",
         "image": "8d9181f6-9dfe-4430-a813-0043d0a50d27",
-        "final": false
+        "final": false,
+        "semifinal": 2,
+        "semiorder": 12
     },
     {
         "country": "Malta",
@@ -187,21 +226,27 @@
         "song": "Chameleon",
         "image": "8d9181f6-c617-4c63-8469-d03ab72d8d76",
         "final": true,
-        "order": 1
+        "order": 1,
+        "semifinal": 2,
+        "semiorder": 11
     },
     {
         "country": "Moldova",
         "artist": "Anna Odobescu",
         "song": "Stay",
         "image": "8d9181ea-879c-4ed3-9751-361b1b856ad9",
-        "final": false
+        "final": false,
+        "semifinal": 2,
+        "semiorder": 3
     },
     {
         "country": "Montenegro",
         "artist": "D mol",
         "song": "Heaven",
         "image": "8d9181f7-01fa-4eb3-b88a-b5e0be9328cc",
-        "final": false
+        "final": false,
+        "semifinal": 1,
+        "semiorder": 2
     },
     {
         "country": "North Macedonia",
@@ -209,7 +254,9 @@
         "song": "Proud",
         "image": "8d9181f2-cfd7-4f52-80a8-ba2b51c5576a",
         "final": true,
-        "order": 8
+        "order": 8,
+        "semifinal": 2,
+        "semiorder": 17
     },
     {
         "country": "Norway",
@@ -217,28 +264,36 @@
         "song": "Spirit in the Sky",
         "image": "8d9181c9-014d-4c65-8c59-12e73a3e2c33",
         "final": true,
-        "order": 15
+        "order": 15,
+        "semifinal": 2,
+        "semiorder": 15
     },
     {
         "country": "Poland",
         "artist": "Tulia",
         "song": "Fire of Love (Pali się)",
         "image": "8d9181db-6813-4df3-8930-5c6048372d9b",
-        "final": false
+        "final": false,
+        "semifinal": 1,
+        "semiorder": 4
     },
     {
         "country": "Portugal",
         "artist": "Conan Osiris",
         "song": "Telemóveis",
         "image": "8d9181f3-0513-40ee-b9a3-2c964566677a",
-        "final": false
+        "final": false,
+        "semifinal": 1,
+        "semiorder": 15
     },
     {
         "country": "Romania",
         "artist": "Ester Peony",
         "song": "On a Sunday",
         "image": "8d9181f6-8901-4026-8c27-357bb018e53c",
-        "final": false
+        "final": false,
+        "semifinal": 2,
+        "semiorder": 6
     },
     {
         "country": "Russia",
@@ -246,7 +301,9 @@
         "song": "Scream",
         "image": "8d9181d0-25ee-4601-9bfe-0acdb6abfacf",
         "final": true,
-        "order": 5
+        "order": 5,
+        "semifinal": 2,
+        "semiorder": 13
     },
     {
         "country": "San Marino",
@@ -254,7 +311,9 @@
         "song": "Say Na Na Na",
         "image": "8d9181c6-113d-402f-9459-91ed681ccd01",
         "final": true,
-        "order": 7
+        "order": 7,
+        "semifinal": 1,
+        "semiorder": 17
     },
     {
         "country": "Serbia",
@@ -262,7 +321,9 @@
         "song": "Kruna",
         "image": "8d9181f7-d905-47a7-bace-513599ca2195",
         "final": true,
-        "order": 23
+        "order": 23,
+        "semifinal": 1,
+        "semiorder": 9
     },
     {
         "country": "Slovenia",
@@ -270,7 +331,9 @@
         "song": "Sebi",
         "image": "8d9181f8-1c09-449b-b3fc-4fc7bc8c4f7b",
         "final": true,
-        "order": 10
+        "order": 10,
+        "semifinal": 1,
+        "semiorder": 5
     },
     {
         "country": "Spain",
@@ -286,7 +349,9 @@
         "song": "Too Late For Love",
         "image": "8d9181f8-2e1f-44cd-98de-ba0e144baabf",
         "final": true,
-        "order": 9
+        "order": 9,
+        "semifinal": 2,
+        "semiorder": 8
     },
     {
         "country": "Switzerland",
@@ -294,7 +359,9 @@
         "song": "She Got Me",
         "image": "8d9181ef-986f-4f88-8251-cc4dc5d6357c",
         "final": true,
-        "order": 24
+        "order": 24,
+        "semifinal": 2,
+        "semiorder": 4
     },
     {
         "country": "The Netherlands",
@@ -302,7 +369,9 @@
         "song": "Arcade",
         "image": "8d9181f0-6b70-44c0-bd27-0867a4547cd2",
         "final": true,
-        "order": 12
+        "order": 12,
+        "semifinal": 2,
+        "semiorder": 16
     },
     {
         "country": "United Kingdom",

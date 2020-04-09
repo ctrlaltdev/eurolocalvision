@@ -12,6 +12,9 @@ class Vote extends React.Component {
   }
 
   componentDidMount () {
+    const { live, voting } = this.props.stream
+  
+    if (live || !voting) window.location.assign('/')
     this.setState({ participants: participants[this.state.year] })
   }
 
@@ -20,8 +23,6 @@ class Vote extends React.Component {
   }
 
   render () {
-    const live = this.props.stream.live
-    const voteNow = this.props.stream.voting
     return (
       <HomeLayout year={this.state.year}>
         <ul>
